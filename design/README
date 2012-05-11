@@ -1,0 +1,25 @@
+This is a JS only app to serve SGD pages via the YeastMine database.
+
+As a prototype it will serve the following pages:
+
+/interactions/<gene>/
+/references/genomewide/ { could be /references/<topic> }
+and eventually
+/regulation/<gene>  as this data gets loaded.
+possibly
+/regulation/by/<gene> and /regulation/of/<gene> or possibly even /regulates/<gene>/ and /regulators/<gene>
+
+Backbone.js is used as the MVC framework, with the Model or Model/View being Imbedding.js queries (Yeastmine JS api)
+The controller is a simple Backbone routing object.
+
+No provision is made for WRITING to the database, although the "VC" nature (with CRU routes) should be adaptable to a R/W model (i.e, SGD Oracle database - perhaps with a python wrapper)
+ 
+
+minimal templates needed:
+-header (including nav bar and search box)
+-footer
+-table (should be provided by imtables or datatables via YeastMine)
+-Further Analysis (send lists to Intermine/Other Apps, or replaced with YM widgets like GO analysis.
+
+This list could be expanded to create other SGD pages
+

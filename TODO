@@ -1,0 +1,2 @@
+* Investigate using CDN for jquery, other libraries with fall back to local storage
+* Look at testing with http://sinonjs.org http://pivotal.github.com/jasmine http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html
