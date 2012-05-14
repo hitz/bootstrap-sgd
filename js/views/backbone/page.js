@@ -5,7 +5,7 @@ define([
 	'vm',
   'text!templates/backbone/page.html',
   'views/backbone/sidemenu',
-  'views/backbone/section'
+  'views/backbone/hero'
 ], function($, _, Backbone, Vm, backbonePageTemplate, SidemenuView, SectionView){
   var BackbonePage = Backbone.View.extend({
     el: '.page',
@@ -15,7 +15,7 @@ define([
       var sidemenuView = Vm.create(this, 'BackboneSideMenuView', SidemenuView);
       sidemenuView.render();
       
-      var sectionView = Vm.create(this, 'BackboneSectionView', SectionView, {section: this.options.section});
+      var sectionView = Vm.create(this, 'BackboneHeroView', SectionView, {section: this.options.section});
       sectionView.render();
     }
   });
