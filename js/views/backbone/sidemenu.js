@@ -2,7 +2,6 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'bootstrap',
   'text!templates/backbone/sidemenu.html',
 ], function($, _, Backbone, sidemenuTemplate){
   var Sidemenu = Backbone.View.extend({
