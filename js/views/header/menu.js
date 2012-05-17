@@ -11,6 +11,7 @@ define([
     render: function () {
       $(this.el).html(headerMenuTemplate);
       $('a[href="' + window.location.hash + '"]').addClass('active');
+      // note that this only functions when #s are in the URLS.
     },
     events: {
       'click a': 'highlightMenuItem'

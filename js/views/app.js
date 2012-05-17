@@ -7,7 +7,7 @@ define([
   'text!templates/layout.html' 
 ], function($, _, Backbone, Vm, Events, layoutTemplate){
   var AppView = Backbone.View.extend({
-    el: '.container',
+    el: '#container',
     initialize: function () {
 		
       var NestedView2 = Backbone.View.extend({})
