@@ -8,6 +8,7 @@ require.config({
     backbone: 'libs/backbone/backbone-min', // https://github.com/amdjs
     sinon: 'libs/sinon/sinon.js',
     bootstrap: 'libs/bootstrap/bootstrap-plugins',
+    autocomplete: 'libs/jquery/jquery-ui-autocomplete',
     // Require.js plugins
     text: 'libs/require/text',
     order: 'libs/require/order',

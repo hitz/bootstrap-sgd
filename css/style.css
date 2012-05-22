@@ -18,6 +18,10 @@
 @import url('bootstrap.css'); 
 @import url('app.css'); 
 
+/* SGD header style including jquery-ui autocomplete*/
+@import url('http://www.yeastgenome.org/wp-content/themes/sgd/style.css');
+@import url('http://www.yeastgenome.org/css/jquery-ui.css'); 
+
 /* Orgininal non bootstrapp styl */
 @import url("theme.css");
 @import url("menus.css");
